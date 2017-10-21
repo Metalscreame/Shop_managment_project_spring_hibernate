@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel=/pages/css/jumbotron-narrow.css" rel="stylesheet">
 </head>
-<body>
+<body background="https://wallpaperscraft.ru/image/forgotten_wings_the_dark_side_prizrak_vzglyad_99549_1920x1080.jpg">
 <div class="container">
     <div class="jumbotron" style="margin-top :200px;">
         <h1>Rozetka(almost)</h1>

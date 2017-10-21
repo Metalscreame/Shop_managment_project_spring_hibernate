@@ -16,13 +16,39 @@
 </head>
 <body background="https://wallpaperscraft.ru/image/forgotten_wings_the_dark_side_prizrak_vzglyad_99549_1920x1080.jpg">
 <div class="container">
+
+    <%-------------rick rolled giffs--%>
+    <div class="row">
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="http://i.imgur.com/wGBi2Sq.gif" alt="...">
+            </a>
+
+        </div>
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="http://i.imgur.com/wGBi2Sq.gif" alt="...">
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="http://i.imgur.com/wGBi2Sq.gif" alt="...">
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="http://i.imgur.com/wGBi2Sq.gif" alt="...">
+            </a>
+        </div>
+    </div>
+    <%-------------rick rolled giffs end--%>
     <div class="jumbotron" style="margin-top :200px;">
-        <h1>Rozetka(almost)</h1>
+        <h1>Welcome to RickRolled Center</h1>
         <p class="lead">
         _____________________________________________
         </p>
         <sec:authorize access="!isAuthenticated()">
-            <p><a class="btn btn-lg btn-success" href="<c:url value="/login " />" role="button">Войти</a></p>
+            <p><a class="btn btn-lg btn-success" href="<c:url value="/login " />" role="button">Войти в наш чудесный магазин</a></p>
         </sec:authorize>
         <sec:authorize access="isAuthenticated()">
             <p>Ваш логин: <sec:authentication property="principal.username" /></p>
@@ -30,8 +56,9 @@
          </sec:authorize>
     </div>
     <div class="footer">
-        <p> @Megaproject </p>
+        <p> Rozetka(Almost) </p>
     </div>
 </div>
+
 </body>
 </html>
