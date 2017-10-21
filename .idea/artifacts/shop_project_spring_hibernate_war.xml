@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="shop_project_spring_hibernate:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="secure-exam.war">
+      <element id="artifact" artifact-name="shop_project_spring_hibernate:war exploded" />
+    </root>
+  </artifact>
+</component>

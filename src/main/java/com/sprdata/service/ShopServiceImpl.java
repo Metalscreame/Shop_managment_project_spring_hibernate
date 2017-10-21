@@ -15,7 +15,7 @@ public class ShopServiceImpl implements ShopService{
     private ShopRepository shopRepository;
 
     @Override
-    @Transactional// откуда именно эта аннотация? ждавакс или спринг?
+    @Transactional // откуда именно эта аннотация? ждавакс или спринг?
     public Shop create(Shop shop) {
         Shop createdShop = shop;
         return shopRepository.save(createdShop);

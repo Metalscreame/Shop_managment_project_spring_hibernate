@@ -10,14 +10,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Spring Security</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="pages/css/jumbotron-narrow.css " />" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body background="nebo_luna_vecher_zvezdy_5550_1920x1080.jpg">
+
 <div class="container" style="width: 300px;">
     <form action="<c:url value="/j_spring_security_check"></c:url>" method="post" role="form">
     <form action="${loginUrl}" method="post">
-        <h2 class="form-signin-heading">Please sign in</h2>
+        <h2 class="form-signin-heading">    Выполните вход</h2>
         <input type="text" class="form-control" name="j_username" placeholder="Email address" required autofocus value="max">
         <input type="password" class="form-control" name="j_password" placeholder="Password" required value="1234">
         <button class="btn btn-lg btn-primary btn-block" type="submit">Войти</button>

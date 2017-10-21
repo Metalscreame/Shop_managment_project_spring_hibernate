@@ -16,8 +16,8 @@
 </head>
 <body>
 <div class="container">
-    <div class="jumbotron" style="margin-top :20px;">
-        <h1>Devcolibri.com</h1>
+    <div class="jumbotron" style="margin-top :200px;">
+        <h1>Rozetka(almost)</h1>
         <p class="lead">
         _____________________________________________
         </p>
